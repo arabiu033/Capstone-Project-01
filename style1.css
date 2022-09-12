@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  background: 50%/cover no-repeat url(./assets/mobile/image-host.jpg), rgba(18, 23, 37, 0.9);
+  background: 50%/cover no-repeat url(./assets/mobile/leo-bg.jpg), rgba(18, 23, 37, 0.9);
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: 100% 100%;
@@ -55,6 +55,14 @@ main h1,
   text-align: center;
 }
 
+.sharing {
+  font-weight: 100;
+  font-size: 1.2rem;
+  color: #54e6af;
+  text-align: center;
+  line-height: 22px;
+}
+
 .title-span {
   color: white;
 }
@@ -79,35 +87,28 @@ main p {
   justify-content: space-between;
 }
 
-.spotify {
-  width: 17.2%;
-}
-
-.apple {
-  width: 14%;
-}
-
-.google {
-  width: 22.28%;
-}
-
-.pocket {
-  width: 23.5%;
-}
-
 .programs {
-  background: url(./assets/mobile/pattern-bg.png), rgba(39, 42, 49, 1);
   padding: 5%;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2.4rem;
+  margin-bottom: 4%;
 }
 
-.programs p {
-  font-size: 70%;
-  font-weight: 600;
-  line-height: 18px;
-  color: #c2cbe5;
+.programs p,
+.speakers p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 22px;
+  color: #272a31;
+  text-align: center;
+}
+
+.logo-feature {
+  text-align: center;
+  background-color: #c2cbe5;
+  padding: 5% 10%;
+  outline: 4px solid #272a31;
 }
 
 .program {
@@ -121,20 +122,6 @@ main p {
   padding: 2%;
 }
 
-.ignite {
-  margin-bottom: 0;
-}
-
-.program > * {
-  display: inline;
-  flex: 1;
-}
-
-.program img {
-  width: 60px;
-  height: 60px;
-  flex: 0;
-}
 
 hr {
   margin: 2.5% auto;
@@ -147,9 +134,9 @@ hr {
 
 .programs-header h2,
 .speakers-header {
-  color: white;
-  font-weight: 500;
-  font-size: 1.5rem;
+  color: #272a31;
+  font-weight: 600;
+  font-size: 1.4rem;
 }
 
 .speakers-header {
@@ -164,72 +151,61 @@ hr {
   margin-left: 3.5vw;
 }
 
-.programs button {
-  padding: 7% 12%;
-  margin: 0 auto;
-  background-color: #54e6af;
-  border: none;
-  color: white;
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 8%;
-  cursor: pointer;
-}
 
 .speakers {
+  border-top: 1px solid #d3d3d3;
   padding: 5%;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
-.speaker {
-  padding: 2%;
-  display: flex;
-  flex-direction: row;
-  gap: 5%;
-  margin-top: 5%;
-}
-.speaker article {
+.submit-pictures {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 2.5%;
+  gap: 1rem;
+  align-items: space-evenly;
+  margin-bottom: 1.5rem;
 }
 
-.speaker img {
-  flex: 0;
-  width: 128px;
-  height: 128px;
+.submit-pictures div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  height: 15rem;
+  color: white;
 }
- .speaker-desc {
-  color: #272a31;
-  font-size: 0.8rem;
-  font-weight: 500;
-  line-height: 18px;
- }
 
- .speaker-field {
-  font-style: italic;
-  color: #54e6af;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 18px;
-  letter-spacing: 2px;
- }
+.submit-pictures p {
+  color: white;
+}
 
- .speaker-name {
-  font-size: 1.4rem;
-  font-weight: 600;
- }
+.submit1 {
+  background: 50%/cover no-repeat url(./assets/mobile/submit1.jpg), rgba(84, 230, 175, 0.8);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  padding: 2rem;
+  background-blend-mode: overlay;
+}
+
+.submit2 {
+  background: 50%/cover no-repeat url(./assets/mobile/submit2.jpg), rgba(84, 230, 175, 0.7);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  padding: 2rem;
+  background-blend-mode: overlay;
+}
 
  .upper {
   background-color: #3f444f;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 8%;
+  padding: 5% 3%;
  }
 
  .upper h2 {
