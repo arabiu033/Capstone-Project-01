@@ -44,7 +44,7 @@ for (let i = 0; speakersList && i < speakers.length; i += 1) {
 
   const img = document.createElement('img');
   img.src = speakers[i].imgSrc;
-  img.setAttribute('alt', 'speaker' + (i+1));
+  img.setAttribute('alt', 'speaker'.concat(i + 1));
 
   const article = document.createElement('article');
   const h3 = document.createElement('h3');
