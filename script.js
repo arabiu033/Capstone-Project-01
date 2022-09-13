@@ -35,16 +35,16 @@ const speakers = [
     speakerField: 'CEO of PD Podcast',
     speakerDesc: 'Ryan has been leading open source project at the mozilla foundation such as the open source movement',
   },
-]
+];
 
 const speakersList = document.querySelector('.speakers-list');
 for (let i = 0; speakersList && i < speakers.length; i += 1) {
   const div = document.createElement('div');
   div.className = 'speaker';
-  
+
   const img = document.createElement('img');
   img.src = speakers[i].imgSrc;
-  img.setAttribute('alt', 'speaker'+(i+1));
+  img.setAttribute('alt', 'speaker' + (i+1));
 
   const article = document.createElement('article');
   const h3 = document.createElement('h3');
@@ -75,6 +75,6 @@ const exit = document.querySelector('.exit-btn');
 const links = nav.querySelectorAll('a');
 hambuger.addEventListener('click', () => nav.classList.remove('toggle-ON'));
 exit.addEventListener('click', () => nav.classList.add('toggle-ON'));
-links.forEach(element => {
-  element.addEventListener('click', () => nav.classList.add('toggle-ON'))
+links.forEach((element) => {
+  element.addEventListener('click', () => nav.classList.add('toggle-ON'));
 });
