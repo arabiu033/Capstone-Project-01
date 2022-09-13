@@ -33,7 +33,7 @@ const speakers = [
     imgSrc: './assets/mobile/reagan.png',
     speakerName: 'Ryan Merkley',
     speakerField: 'CEO of PD Podcast',
-    speakerDesc: 'Ryan has been leading open source project at the mozilla foundation such as the open source movement',
+    speakerDesc: 'Ryan has been leading open source project at the mozilla foundation such as the open source movement.',
   },
 ];
 
