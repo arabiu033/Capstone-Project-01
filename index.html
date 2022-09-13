@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Capstone Project x01</title>
 </head>
@@ -14,12 +13,14 @@
             <img class="hambuger" src="./assets/mobile//hamburger.png" alt="harmbuger icon"/>
             <nav class="navigator toggle-ON">
               <button class="exit-btn">X</button>
+              <a href="index.html"><img class="desktop" src="./assets/mobile/logo.svg" alt="logo"></a>
               <ul>
                 <li><a href="about.html">About</a></li>
-                <li>Program</li>
-                <li>Join</li>
-                <li>Sponsor</li>
-                <li>News</li>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Sponsor</a></li>
+                <li><a href="#">News</a></li>
+                <li class="desktop"><a href="#">PDCampaign</a></li>
               </ul>
               <div>
                 <hr>
@@ -27,12 +28,14 @@
             </nav>
           </header>
           <main>
-            <h4 class="sharing">
-              "Hello! Sharing world"
-            </h4>
-            <h1>
-              PUBLISH YOUR PODCAST <span class="title-span"> EVERYWHERE</span>
-            </h1>
+            <div>
+              <h4 class="sharing desktop">
+                "Hello! Sharing world"
+              </h4>
+              <h1>
+                PUBLISH YOUR PODCAST <span class="title-span"><br>EVERYWHERE</span>.
+              </h1>
+            </div>
             <p class="support">            
               Upload your audio to Pod with a single click. We’ll then distribute 
               your podcast to Spotify, Apple Podcasts, Google Podcasts, 
@@ -44,9 +47,9 @@
               <img class="google" src="./assets/mobile/google-podcasts.svg" alt="Google"/>
               <img class="pocket" src="./assets/mobile/pocket-casts.svg" alt="Pocket casts"/>
             </div>
-            <p>
+            <p class="btm-support">
               @ National Music Center of England, Art Center and More
-            </p>
+            </p>            
           </main>
         </div>
 
@@ -71,7 +74,7 @@
             <article class="program">
               <img src="./assets/mobile/program3.png" alt="forum">
               <h2>Forum</h2>
-              <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
+              <p>Have the time to share your thoughts and opinions with experts for each various topic.</p>
             </article>
             <article class="program">
               <img src="./assets/mobile/program4.png" alt="theatre">
@@ -87,6 +90,7 @@
           <button>
             <a href="#">Join PD Podecast 2020</a>
           </button>
+          <p class="desktop mail" id="see-the"><a href="#">SEE THE WHOLE PROGRAM</a></p>
         </section>
 
         <section class="speakers">
@@ -97,50 +101,7 @@
             <hr>
           </div>
           <div class="speakers-list">
-            <div class="speaker">
-              <img src="./assets/mobile/yochai.png" alt="speaker 1">
-              <article>
-                <h2 class="speaker-name">Yochai Benkler</h2>
-                <h4 class="speaker-field">Berkan Professor of History with over 20 years experience in podcast</h4>
-                <p>.....</p>
-                <p class="speaker-desc">Benkler studies commons-based peer production and published his seminal book
-                  Journey to the podcasting world.
-                </p>
-              </article>
-            </div>
-            <div class="speaker">
-              <img src="./assets/mobile/yochai.png" alt="speaker 1">
-              <article>
-                <h2 class="speaker-name">Yochai Benkler</h2>
-                <h4 class="speaker-field">Berkan Professor of History with over 20 years experience in podcast</h4>
-                <p>.....</p>
-                <p class="speaker-desc">Benkler studies commons-based peer production and published his seminal book
-                  Journey to the podcasting world.
-                </p>
-              </article>
-            </div>
-            <div class="speaker">
-              <img src="./assets/mobile/yochai.png" alt="speaker 1">
-              <article>
-                <h2 class="speaker-name">Yochai Benkler</h2>
-                <h4 class="speaker-field">Berkan Professor of History with over 20 years experience in podcast</h4>
-                <p>.....</p>
-                <p class="speaker-desc">Benkler studies commons-based peer production and published his seminal book
-                  Journey to the podcasting world.
-                </p>
-              </article>
-            </div>
-            <div class="speaker">
-              <img src="./assets/mobile/yochai.png" alt="speaker 1">
-              <article>
-                <h2 class="speaker-name">Yochai Benkler</h2>
-                <h4 class="speaker-field">Berkan Professor of History with over 20 years experience in podcast</h4>
-                <p>.....</p>
-                <p class="speaker-desc">Benkler studies commons-based peer production and published his seminal book
-                  Journey to the podcasting world.
-                </p>
-              </article>
-            </div>
+            <!-- Populate through javascript dynamically -->
           </div>
         </section>
 
@@ -160,8 +121,16 @@
           </section>
           <section class="down">
               <img src="./assets/mobile/logo.svg" alt="logo">
+              <div>
               <p>2020 Podcasting Events In National Music Center England</p>
+              <p class="desktop">
+                Please contact us per Email for any further questions about PD Podcast Submit 2020!
+                <br><span class="mail"><a href="#">podcasting@pod.org</a></span>
+              </p>
+              </div>
           </section>
         </footer>
+
+        <script src="./script.js"></script>
 </body>
 </html>
