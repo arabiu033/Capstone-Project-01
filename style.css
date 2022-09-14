@@ -348,10 +348,16 @@ background-color: #c2cbe5;
     display: initial;
   }
 
+  .pdc {
+    outline: 5px solid #54e6af;
+    padding: 5px 10px;
+    color: #54e6af !important;
+  }
+
   .navigator {
     background-color: rgba(211, 211, 211, 0.6);
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 20px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -368,7 +374,8 @@ background-color: #c2cbe5;
   
   .navigator ul {
     display: grid;
-    grid-template: 1fr / repeat(6, 1fr);
+    grid-template: 1fr / repeat(5, 1fr) 2fr;
+    column-gap: 1.5rem;
   }
   
   .navigator li {
@@ -568,6 +575,30 @@ background-color: #c2cbe5;
     line-height: 18px;
     letter-spacing: 0.07rem;
     color: #272a31
+  }
+
+  .loggings {
+    background-color: rgba(194, 203, 229, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 3.5%;
+  }
+
+  .loggings img {
+    width: 13px;
+    height: 13px;
+    background-color: #d3d3d3;
+  }
+
+  .loggings p {
+    color: #272a31;
+    font-size: 1rem;
   }
 
 }
