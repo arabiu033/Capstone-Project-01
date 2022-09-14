@@ -330,7 +330,7 @@ hr {
     padding: 0.5% 10%;
     border-bottom: 1px solid #c2cbe5;
   }
-  
+
   .navigator ul {
     display: grid;
     grid-template: 1fr / repeat(5, 1fr) 2fr;
@@ -472,7 +472,7 @@ hr {
   .upper {
     gap: 3rem;
     padding: 2% 18%;
-   }
+  }
 
   .logos {
     display: grid;
