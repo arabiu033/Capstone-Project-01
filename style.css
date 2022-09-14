@@ -63,7 +63,7 @@ main p {
   font-size: 0.933rem;
   font-weight: 100;
   line-height: 25px;
-  color: #C2CBE5;
+  color: #c2cbe5;
   text-align: center;
   padding: 1rem;
 }
@@ -433,7 +433,7 @@ hr {
     font-size: 1.033rem;
     font-weight: 100;
     line-height: 25px;
-    color: #C2CBE5;
+    color: #c2cbe5;
     text-align: left;
     padding: 1.4rem;
   }
@@ -442,7 +442,7 @@ hr {
     padding-bottom: 2px;
     border-bottom: 1px solid;
   }
-  
+
   .support {
     border: 1px solid #c2cbe5;
     width: 70%;
@@ -531,7 +531,7 @@ hr {
     line-height: 18px;
     letter-spacing: -1px;
   }
-  
+
   .speaker-field {
     font-size: 0.9rem;
     line-height: 19px;
