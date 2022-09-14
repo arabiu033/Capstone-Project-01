@@ -411,7 +411,7 @@ hr {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 6vh;
+    gap: 5vh;
     margin-top: 5rem;
   }
 
@@ -601,5 +601,9 @@ hr {
   .loggings p {
     color: #d3d3d3;
     font-size: 0.8rem;
+  }
+
+  .about-color {
+    color: #ec5242 !important;
   }
 }

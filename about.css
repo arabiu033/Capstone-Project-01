@@ -528,4 +528,12 @@ hr {
     color: #d3d3d3;
     font-size: 0.8rem;
   }
+
+  .mobile {
+    display: none;
+  }
+
+  .about-color {
+    color: #ec5242 !important;
+  }
 }
