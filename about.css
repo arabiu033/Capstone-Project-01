@@ -37,7 +37,7 @@ body {
   height: 32px;
 }
 
-main {
+.main {
   width: 78vw;
   margin: 0 auto;
   display: flex;
@@ -45,29 +45,25 @@ main {
   gap: 3vh;
 }
 
-main h1,
+.main h1,
 .programs-header h2,
 .speakers-header {
   font-weight: 100;
   font-size: 1.625rem;
   line-height: 38px;
-  color: #54e6af;
+  color: #ec5242;
   text-align: center;
 }
 
 .sharing {
   font-weight: 100;
   font-size: 1.2rem;
-  color: #54e6af;
+  color: #ec5242;
   text-align: center;
   line-height: 22px;
 }
 
-.title-span {
-  color: white;
-}
-
-main p {
+.main p {
   font-size: 0.933rem;
   font-weight: 100;
   line-height: 25px;
@@ -116,7 +112,7 @@ hr {
   width: 3rem;
   height: 0.08rem;
   border-radius: 16px;
-  background-color: #54e6af;
+  background-color: #ec5242;
   border: none;
 }
 
@@ -133,7 +129,7 @@ hr {
 }
 
 .program-list h2 {
-  color: #54e6af;
+  color: #ec5242;
   font-size: 1rem;
   font-weight: 600;
   margin-left: 3.5vw;
@@ -169,7 +165,7 @@ hr {
 }
 
 .submit1 {
-  background: 50%/cover no-repeat url(./assets/mobile/submit1.jpg), rgba(84, 230, 175, 0.8);
+  background: 50%/cover no-repeat url(./assets/mobile/submit1.jpg), rgba(236, 82, 66, 0.6);
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: 100% 100%;
@@ -178,7 +174,7 @@ hr {
 }
 
 .submit2 {
-  background: 50%/cover no-repeat url(./assets/mobile/submit2.jpg), rgba(84, 230, 175, 0.7);
+  background: 50%/cover no-repeat url(./assets/mobile/submit2.jpg), rgba(236, 82, 66, 0.6);
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: 100% 100%;
@@ -351,9 +347,9 @@ hr {
   }
 
   .pdc {
-    outline: 5px solid #54e6af;
+    outline: 5px solid #ec5242;
     padding: 5px 10px;
-    color: #54e6af !important;
+    color: #ec5242 !important;
   }
 
   .container {
@@ -372,7 +368,7 @@ hr {
     text-align: center;
   }
 
-  main {
+  .main {
     width: 50vw;
     margin: 0 auto;
     display: flex;
@@ -383,7 +379,7 @@ hr {
     margin-top: 7rem;
   }
 
-  main h1 {
+  .main h1 {
     font-size: 2.675rem;
     letter-spacing: 3px;
     line-height: 52px;
@@ -392,13 +388,13 @@ hr {
   }
 
   .sharing {
-    color: #54e6af;
+    color: #ec5242;
     font-size: 1.7rem;
     letter-spacing: 3px;
     font-weight: 300;
   }
 
-  main p {
+  .main p {
     font-size: 1.133rem;
     font-weight: 100;
     line-height: 25px;

@@ -59,13 +59,9 @@ for (let i = 0; speakersList && i < speakers.length; i += 1) {
   p.className = 'speaker-desc';
   p.textContent = speakers[i].speakerDesc;
 
-  article.append(h3);
-  article.append(h4);
-  article.append(pDot);
-  article.append(p);
+  article.append(h3, h4, pDot, p);
 
-  div.append(img);
-  div.append(article);
+  div.append(img, article);
   speakersList.append(div);
 }
 
