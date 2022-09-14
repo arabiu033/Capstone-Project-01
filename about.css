@@ -102,7 +102,7 @@ body {
 
 .logo-feature {
   text-align: center;
-  background-color: #c2cbe5;
+  background-color: rgba(211, 211, 211, 0.4);
   padding: 5% 10%;
   outline: 4px solid #272a31;
 }
@@ -431,7 +431,7 @@ hr {
 
   .logo-feature {
     text-align: center;
-    background-color: #c2cbe5;
+    background-color: rgba(211, 211, 211, 0.4);
     padding: 5% 10%;
     outline: 4px solid #272a31;
     width: 50%;
