@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Podcast-Submit](https://arabiu033.github.io/Capstone-Project-01/)
+[Podcast-Submit](https://podcast-capstone.netlify.app)
 
 
 ## Author
