@@ -38,31 +38,33 @@ const speakers = [
 ];
 
 const speakersList = document.querySelector('.speakers-list');
-for (let i = 0; speakersList && i < speakers.length; i += 1) {
-  const div = document.createElement('div');
-  div.className = 'speaker';
+if (speakersList) {
+  speakers.forEach((e, i) => {
+    const div = document.createElement('div');
+    div.className = 'speaker';
 
-  const img = document.createElement('img');
-  img.src = speakers[i].imgSrc;
-  img.setAttribute('alt', 'speaker'.concat(i + 1));
+    const img = document.createElement('img');
+    img.src = e.imgSrc;
+    img.setAttribute('alt', 'speaker'.concat(i + 1));
 
-  const article = document.createElement('article');
-  const h3 = document.createElement('h3');
-  h3.className = 'speaker-name';
-  h3.textContent = speakers[i].speakerName;
-  const h4 = document.createElement('h4');
-  h4.className = 'speaker-field';
-  h4.textContent = speakers[i].speakerField;
-  const pDot = document.createElement('p');
-  pDot.textContent = '.....';
-  const p = document.createElement('p');
-  p.className = 'speaker-desc';
-  p.textContent = speakers[i].speakerDesc;
+    const article = document.createElement('article');
+    const h3 = document.createElement('h3');
+    h3.className = 'speaker-name';
+    h3.textContent = e.speakerName;
+    const h4 = document.createElement('h4');
+    h4.className = 'speaker-field';
+    h4.textContent = e.speakerField;
+    const pDot = document.createElement('p');
+    pDot.textContent = '.....';
+    const p = document.createElement('p');
+    p.className = 'speaker-desc';
+    p.textContent = e.speakerDesc;
 
-  article.append(h3, h4, pDot, p);
+    article.append(h3, h4, pDot, p);
 
-  div.append(img, article);
-  speakersList.append(div);
+    div.append(img, article);
+    speakersList.appendChild(div);
+  });
 }
 
 const hambuger = document.querySelector('.hambuger');
