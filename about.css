@@ -343,10 +343,10 @@ hr {
     display: none;
   }
 
-  .pdc {
+  #pdc {
     outline: 5px solid var(--primary);
     padding: 5px 10px;
-    color: var(--primary) !important;
+    color: var(--primary);
   }
 
   .container {
@@ -479,7 +479,7 @@ hr {
     display: none;
   }
 
-  .about-color {
-    color: var(--primary) !important;
+  #about-color {
+    color: var(--primary);
   }
 }

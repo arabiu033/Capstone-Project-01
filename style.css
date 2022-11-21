@@ -353,10 +353,10 @@ hr {
     display: initial;
   }
 
-  .pdc {
+  #pdc {
     outline: 5px solid var(--primary);
     padding: 5px 10px;
-    color: var(--primary) !important;
+    color: var(--primary);
   }
 
   .navigator {
@@ -568,7 +568,7 @@ hr {
     font-size: 0.7rem;
   }
 
-  .about-color {
-    color: var(--primary) !important;
+  #about-color {
+    color: var(--primary);
   }
 }
