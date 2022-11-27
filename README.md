@@ -81,6 +81,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Image view:
+<img src="https://github.com/arabiu033/capstone-project-0x01/blob/main/assets/desktop/screencapture-127-0-0-1-5500-capstone-project-0x01-about-html-2022-11-27-21_14_12.png" width="40%" height="700">
 
 
 
