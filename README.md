@@ -83,7 +83,7 @@
 ## Image view:
 <div style="min-width:100%;display:flex;justify-content:space-around">
   <img src="https://github.com/arabiu033/capstone-project-0x01/blob/main/assets/desktop/screencapture-127-0-0-1-5500-capstone-project-0x01-index-html-2022-11-27-21_12_05.png" width="40%" height="700">
-  <img src="https://github.com/arabiu033/capstone-project-0x01/blob/main/assets/desktop/screencapture-127-0-0-1-5500-capstone-project-0x01-about-html-2022-11-27-21_14_12.png" width="40%">
+  <img src="https://github.com/arabiu033/capstone-project-0x01/blob/main/assets/desktop/screencapture-127-0-0-1-5500-capstone-project-0x01-about-html-2022-11-27-21_14_12.png" width="40%" height="700">
 </div>
 
 
