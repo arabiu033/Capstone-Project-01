@@ -169,7 +169,7 @@ hr {
   margin-left: 3.5vw;
 }
 
-.programs button {
+.programs .button {
   padding: 7% 12%;
   margin: 0 auto;
   background-color: var(--primary);
@@ -344,7 +344,7 @@ hr {
 @media screen and (min-width: 768px) {
   .hambuger,
   .exit-btn,
-  .programs button {
+  .programs .button {
     display: none;
   }
 
