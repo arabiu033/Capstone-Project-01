@@ -20,11 +20,15 @@ ul,
 li {
   text-decoration: none;
   color: inherit;
+}
+
+ul,
+li {
   list-style: none;
 }
 
 body {
-  font-family: 'Chivo', sans-serif;
+  font-family: Chivo, sans-serif;
   font-size: 18px;
 }
 
@@ -138,7 +142,6 @@ body {
 .program img {
   width: 60px;
   height: 60px;
-  flex: 0;
 }
 
 hr {
@@ -333,17 +336,15 @@ hr {
   height: 5px;
 }
 
+.desktop,
 .toggle-ON {
-  display: none;
-}
-
-.desktop {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
   .hambuger,
   .exit-btn,
+  .navigator div,
   .programs .button {
     display: none;
   }
@@ -384,10 +385,6 @@ hr {
     border-bottom: none;
     width: initial;
     text-align: center;
-  }
-
-  .navigator div {
-    display: none;
   }
 
   .container {

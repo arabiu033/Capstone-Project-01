@@ -20,11 +20,16 @@ ul,
 li {
   text-decoration: none;
   color: inherit;
-  list-style: none;
+}
+
+ul,
+li {
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
-  font-family: 'Chivo', sans-serif;
+  font-family: Chivo, sans-serif;
   font-size: 18px;
 }
 
@@ -163,7 +168,8 @@ hr {
   color: var(--white);
 }
 
-.submit-pictures p {
+.submit-pictures p,
+.upper h2 {
   color: var(--white);
 }
 
@@ -190,10 +196,6 @@ hr {
   flex-direction: column;
   gap: 2rem;
   padding: 5% 3%;
-}
-
-.upper h2 {
-  color: var(--white);
 }
 
 .logos {
@@ -286,17 +288,16 @@ hr {
   height: 5px;
 }
 
+.desktop,
 .toggle-ON {
   display: none;
 }
 
-.desktop {
-  display: none;
-}
-
 @media screen and (min-width: 768px) {
+  .mobile,
   .hambuger,
   .exit-btn,
+  .navigator div,
   .programs button {
     display: none;
   }
@@ -337,10 +338,6 @@ hr {
     width: initial;
     padding: 3%;
     text-align: center;
-  }
-
-  .navigator div {
-    display: none;
   }
 
   #pdc {
@@ -473,10 +470,6 @@ hr {
   .loggings p {
     color: var(--secondary-BG);
     font-size: 0.8rem;
-  }
-
-  .mobile {
-    display: none;
   }
 
   #about-color {
