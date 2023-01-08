@@ -24,8 +24,7 @@ li {
 
 ul,
 li {
-  text-decoration: none;
-  color: inherit;
+  list-style: none;
 }
 
 body {
