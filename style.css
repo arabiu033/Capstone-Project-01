@@ -52,13 +52,13 @@ body {
   height: 32px;
 }
 
-.main {
+.links {
   width: 78vw;
   margin: 0 auto;
   gap: 3vh;
 }
 
-.main h1,
+.links h1,
 .programs-header h2,
 .speakers-header {
   font-weight: 100;
@@ -68,7 +68,7 @@ body {
   text-align: center;
 }
 
-.main p {
+.links p {
   font-size: 0.933rem;
   font-weight: 100;
   line-height: 25px;
@@ -389,7 +389,7 @@ hr {
     margin-top: 4%;
   }
 
-  .main {
+  .links {
     width: 50vw;
     margin: 0;
     justify-content: flex-start;
@@ -398,7 +398,7 @@ hr {
     margin-top: 5rem;
   }
 
-  .main h1 {
+  .links h1 {
     font-size: 3.675rem;
     letter-spacing: 3px;
     line-height: 59px;
@@ -413,7 +413,7 @@ hr {
     font-weight: 100;
   }
 
-  .main p {
+  .links p {
     font-size: 1.033rem;
     text-align: left;
     padding: 1.4rem;
