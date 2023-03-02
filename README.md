@@ -112,11 +112,41 @@ cd capstone-project-0x01
 
 ### Install
 
-Install this project with:
+To install all dependencies, run:
 
 ```
 npm install
 ```
+
+### Usage
+
+To run the project, follow these instructions:
+
+- After Cloning this repo to your local machine.
+- Open the `index.html` in your browser.
+
+### Run tests
+
+To run tests, run the following command:
+
+- Track HTML linter errors run:
+```
+npx hint .
+```
+- Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+- Track JavaScript linter errors run:
+```
+npx eslint .
+```
+
+### Deployment <a name="deployment"></a>
+
+You can deploy this project using: GitHub Pages,
+- I used GitHub Pages to deploy my website.
+- For more information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,39 +183,39 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project, please give a start and suggest possible changes 
-to make it better. We'll be more than happy to help
+Give a ⭐️ if you like this project and how I managed to build it!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+- The original design ideal by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+- Project from [Microverse](https://www.microverse.org/) html & css module.
+- Images inspired by [Unsplash](https://unsplash.com/).
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ❓ FAQ <a name="faq"></a>
 
+- **Can I fork and reuse the repository**
 
-- **Do i need the current NPM version?**
+  - Yes please, feel free.
 
-  - Yes you do
+- **Can I improve the repository, and my changes will be accepted if they are good?**
 
-- **Do i need to be connected to the internet?**
-
-  - Yes!  
+  - Yes please, nice ideas are welcome, please.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-- The original design of this work is credited to `Chindy Shin`
->The Creative license is also credited to [Chindy Shindy](https://www.behance.net/adagio07)
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
